@@ -4,15 +4,19 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="app1.Game4" Title="Game4">
+             x:Class="app1.Game4"
+             Title="Game4"
+             NavigationPage.HasNavigationBar="false">
+    
     <ContentPage.Resources>
-        <StyleSheet Source="css/stylessaving.css"/>
+        <StyleSheet Source="css/stylessaving.css" />
     </ContentPage.Resources>
 
     <ContentPage.Content>
         <StackLayout>
-            <Label StyleClass="test" Text="Welkom bij Game 4">
-                
+            <Label StyleClass="test"
+                   Text="Welkom bij Game 4">
+
             </Label>
         </StackLayout>
     </ContentPage.Content>
