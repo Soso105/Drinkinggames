@@ -5,7 +5,9 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="app1.Game2"
-             Title="Game2">
+             Title="Game2"
+             NavigationPage.HasNavigationBar="false">
+    
     <ContentPage.Resources>
         <StyleSheet Source="css/stylessaving.css"/>
     </ContentPage.Resources>
@@ -13,7 +15,8 @@
 
     <ContentPage.Content>
         <StackLayout>
-            <Label StyleClass="test" Text="Welkom bij Game 2"></Label>
+            <Label StyleClass="test" Text="Welkom bij Never have i ever..."></Label>
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
