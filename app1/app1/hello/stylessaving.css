@@ -1,0 +1,20 @@
+﻿
+^ContentPage {
+    background-color: darkseagreen;
+    text-align:center;
+
+}
+
+.test{
+    text-align:center;
+    font-size:40;
+    font-style:bold;
+    
+
+}
+
+.button {
+    text-align: center;
+    font-size:30;
+    margin-top:40;
+}

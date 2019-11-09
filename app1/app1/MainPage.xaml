@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="app1.MainPage">
+    <ContentPage.Resources>
+        <StyleSheet Source="hello/stylessaving.css"/>
+    </ContentPage.Resources>
+
+    <StackLayout>
+        <!-- Place new controls here -->
+        <Label x:Name="test"  Text="Welkom bij de Drinkingame!" 
+          StyleClass="test"></Label>
+        <Button Text="Game 1"  StyleClass="button" Clicked="Game1"/>
+        <Button StyleClass="button" Text="Game 2"  Clicked="Game2"/>
+        <Button StyleClass="button" Text="Game 3" Clicked="Game3"/>
+        <Button  StyleClass="button" Text="Game 4"  Clicked="Game4"/>
+    </StackLayout>
+
+</ContentPage>
