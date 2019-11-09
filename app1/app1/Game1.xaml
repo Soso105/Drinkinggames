@@ -12,9 +12,12 @@
 
     <ContentPage.Content>
         <StackLayout>
-            <Label StyleClass="test" Text="Welkom bij Game 1">
+            <Label x:Name="Game1Text" StyleClass="test" Text="Welkom bij Game 1">
                 
-            </Label>                
+                
+            </Label>
+ 
         </StackLayout>
+        
     </ContentPage.Content>
 </ContentPage>

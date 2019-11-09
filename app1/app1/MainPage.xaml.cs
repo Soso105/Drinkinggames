@@ -17,15 +17,18 @@ namespace app1
         {
             InitializeComponent();
         }
+
+
         async void Game1(object sender, EventArgs args)
         {
             await Navigation.PushAsync(new Game1());
+		  
         }
         async void Game2(object sender, EventArgs args)
         {
             await Navigation.PushAsync(new Game2());
         }
-        async void Game3(Object sender, EventArgs args)
+        async void Game3(object sender, EventArgs args)
         {
             await Navigation.PushAsync(new Game3());
 
