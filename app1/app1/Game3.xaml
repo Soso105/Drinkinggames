@@ -5,10 +5,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="app1.Game3" 
-             Title="Game3"
-             NavigationPage.HasNavigationBar="false">
-    
-    
+             Title="Game3">
     <ContentPage.Resources>
         <StyleSheet Source="css/stylessaving.css"/>
     </ContentPage.Resources>
