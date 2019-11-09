@@ -7,7 +7,7 @@
              x:Class="app1.Game3" 
              Title="Game3">
     <ContentPage.Resources>
-        <StyleSheet Source="hello/stylessaving.css"/>
+        <StyleSheet Source="css/stylessaving.css"/>
     </ContentPage.Resources>
 
     <ContentPage.Content>

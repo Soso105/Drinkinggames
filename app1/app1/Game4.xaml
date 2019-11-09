@@ -6,7 +6,7 @@
              mc:Ignorable="d"
              x:Class="app1.Game4" Title="Game4">
     <ContentPage.Resources>
-        <StyleSheet Source="hello/stylessaving.css"/>
+        <StyleSheet Source="css/stylessaving.css"/>
     </ContentPage.Resources>
 
     <ContentPage.Content>
