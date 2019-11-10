@@ -14,7 +14,7 @@
 
     <ContentPage.Content>
         <StackLayout>
-            <Label x:Name="Game1Text" StyleClass="test" Text="Welkom bij game 1 ">
+            <Label x:Name="irritatie" StyleClass="test" Text="Welkom bij game 1 ">
                 
                 
             </Label>
