@@ -11,10 +11,16 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Update="Never have i ever.xaml.cs">
+      <DependentUpon>Never have i ever.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
     <EmbeddedResource Update="Game1.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Game2.xaml">
+    <EmbeddedResource Update="Never have i ever.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Game3.xaml">
@@ -23,5 +29,9 @@
     <EmbeddedResource Update="Game4.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Never_have_i_ever\" />
   </ItemGroup>
 </Project>

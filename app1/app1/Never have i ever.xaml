@@ -9,13 +9,20 @@
              NavigationPage.HasNavigationBar="false">
     
     <ContentPage.Resources>
-        <StyleSheet Source="css/stylessaving.css"/>
+        <StyleSheet Source="/css/stylessaving.css"/>
     </ContentPage.Resources>
 
 
     <ContentPage.Content>
         <StackLayout>
-            <Label StyleClass="test" Text="Welkom bij Never have i ever..."></Label>
+            <Label x:Name="VraagLabel"
+                   StyleClass="test"
+                   Text="Vraag"/>
+
+
+            <Button StyleClass="volgende_button" x:Name="Volgende_button" Text="Volgende"></Button>
+            
+
 
         </StackLayout>
     </ContentPage.Content>
