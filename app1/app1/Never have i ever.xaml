@@ -15,12 +15,12 @@
 
     <ContentPage.Content>
         <StackLayout>
-            <Label x:Name="VraagLabel"
+            <!--<Label x:Name="VraagLabel"
                    StyleClass="test"
                    Text="Vraag"/>
 
 
-            <Button StyleClass="volgende_button" x:Name="Volgende_button" Text="Volgende"></Button>
+            <Button StyleClass="volgendeButton" x:Name="Volgende_button" Text="Volgende"></Button>-->
             
 
 

@@ -15,7 +15,7 @@
 
     <ContentPage.Content>
         <StackLayout>
-            <Label StyleClass="test" Text="Welkom bij Game 3"></Label>
+            <Label StyleClass="title" Text="Welkom bij Game 3"></Label>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
