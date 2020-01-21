@@ -10,12 +10,14 @@
         <StyleSheet Source="css/stylessaving.css"/>
     </ContentPage.Resources>
 
-    <StackLayout StyleClass="contentPage">
-        <Label StyleClass="title" Text="Welkom bij de Drinkingame!"></Label>
-        <Button StyleClass="menuButton" Text="Game 1" Clicked="Game1"/>
-        <Button StyleClass="menuButton" Text="Game 2" Clicked="Game2"/>
-        <Button StyleClass="menuButton" Text="Game 3" Clicked="Game3"/>
-        <Button StyleClass="menuButton" Text="Game 4" Clicked="Game4"/>
+    <StackLayout>
+        <!-- Place new controls here -->
+        <Label x:Name="test" Text="Welkom bij de Drinkingame!" 
+          StyleClass="test"></Label>
+        <Button Text="Game 1" StyleClass="button" Clicked="Game1"/>
+        <Button StyleClass="button" Text="Game 2" Clicked="Game2"/>
+        <Button StyleClass="button" Text="Game 3" Clicked="Game3"/>
+        <Button StyleClass="button" Text="Game 4" Clicked="Game4"/>
     </StackLayout>
 
 </ContentPage>
