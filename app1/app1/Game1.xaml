@@ -14,10 +14,9 @@
 
     <ContentPage.Content>
         <StackLayout>
-            <Label StyleClass="title" Text="Welkom bij game 1 ">
-                
-                
-            </Label>
+            <Label StyleClass="title" Text="Hints!"></Label>
+            <Label Text="Team 1" />
+            <Entry WidthRequest="500" Placeholder="Enter registered email" />
  
         </StackLayout>
         

@@ -11,11 +11,11 @@
     </ContentPage.Resources>
 
     <StackLayout>
-        <Label StyleClass="title" Text="Welkom bij de Drinkingame!"></Label>
-        <Button StyleClass="button" Text="Game 1" Clicked="Game1"/>
-        <Button StyleClass="button" Text="Game 2" Clicked="Game2"/>
-        <Button StyleClass="button" Text="Game 3" Clicked="Game3"/>
-        <Button StyleClass="button" Text="Game 4" Clicked="Game4"/>
+        <Label StyleClass="title" Text="Welkom bij de Droeli!"></Label>
+        <Button StyleClass="menuButton" Text="Hints" Clicked="Game1"/>
+        <Button StyleClass="menuButton" Text="Never Have I Ever" Clicked="Game2"/>
+        <Button StyleClass="menuButton" Text="Game 3" Clicked="Game3"/>
+        <Button StyleClass="menuButton" Text="Game 4" Clicked="Game4"/>
     </StackLayout>
 
 </ContentPage>
