@@ -20,7 +20,7 @@
                    Text="Vraag"/>
 
 
-            <Button StyleClass="volgendeButton" x:Name="Volgende_button" Text="Volgende"></Button>-->
+            <Button StyleClass="volgendeButton" x:Name="volgendeButton" Text="Volgende"></Button>-->
             
 
 
